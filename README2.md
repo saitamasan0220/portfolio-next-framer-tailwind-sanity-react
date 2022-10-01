@@ -1,6 +1,7 @@
 # Visual Studio Code
 ## VS Code Extensions
 * Tailwind CSS IntelliSense
+* ES7+ React/Redux/React-Native snippets
 
 ## VS Code Commands
 CMD+P => Search bar for any file
@@ -22,6 +23,11 @@ yarn add -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
+## React Social Icons
+```
+yarn add react-social-icons
+```
+
 ## Delete Home.module.css
 ## styles > globals.css
 ```
@@ -31,4 +37,10 @@ npx tailwindcss init -p
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+## Install Framer Motion
+## https://www.framer.com/docs/introduction/
+```
+yarn add framer-motion
 ```
