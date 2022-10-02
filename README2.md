@@ -2,6 +2,7 @@
 ## VS Code Extensions
 * Tailwind CSS IntelliSense
 * ES7+ React/Redux/React-Native snippets
+* Auto Rename Tag
 
 ## VS Code Commands
 CMD+P => Search bar for any file

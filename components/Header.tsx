@@ -18,6 +18,9 @@ export default function Header({}: Props) {
             opacity: 1,
             scale: 1
           }}
+          transition={{
+            duration: 1.5,
+          }}
           className='flex flex-row items-center'>
             {/* Social Icons */}
             <SocialIcon 
@@ -37,7 +40,19 @@ export default function Header({}: Props) {
             /> 
         </motion.div>
 
-        <div>
+        <motion.div
+            initial={{
+                x: 500,
+                opacity: 1,
+                scale: 1
+            }}
+            animate={{
+                x: 0,
+                opacity: 1,
+                scale: 1
+            }}
+            transition={{ duration: 1.5 }}
+        >
             <SocialIcon 
                 className='cursor-pointer'
                 network="email"
@@ -48,7 +63,7 @@ export default function Header({}: Props) {
                 className="uppercase hidden
                 md:inline-flex text-sm text-gray-400"
                 >Get In Touch</p>
-        </div>
+        </motion.div>
     </header>
   )
 }
