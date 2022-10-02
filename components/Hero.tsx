@@ -23,7 +23,7 @@ export default function Hero({}: Props) {
                 className='relative rounded-full h-32 w-32 mx-auto object-cover' 
                 src="https://media.comicbook.com/2018/12/one-punch-man-season-2-trailer-saitama-1151267.jpeg" 
                 alt="" />
-            <div>
+            <div className='z-20'>
                 <h2 className="text-sm uppercase
                                 text-gray-500 pb-2
                                 tracking-[15px]"
