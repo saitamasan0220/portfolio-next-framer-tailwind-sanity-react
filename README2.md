@@ -81,3 +81,10 @@ npx tailwindcss init -p
 
 `yarn add -D tailwind-scrollbar`
 add `require("tailwind-scrollbar")` to `plugins` array in `tailwind.config.js`
+
+### Sanity
+
+```
+sudo npm install -g @sanity/cli
+sanity init --coupon sonny2022
+```
